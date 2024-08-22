@@ -23,5 +23,6 @@ handler403 = views.response_error_handler
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("polls/", include("polls.urls")),
+    path("blog/", include("blog.urls")),
     path("403/", views.permission_denied_view),
 ]
