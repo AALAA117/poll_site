@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "django": true,
+    "html": true,
+    "css": true,
+    "js": true
+  },
+  "ignore": [
+    "H025"
+  ]
+}
